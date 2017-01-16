@@ -20,8 +20,8 @@ var defaultUrn = 'dXJuOmFkc2sub2JqZWN0czpvcy5vYmplY3Q6bW9kZWwyMDE3LTAxLTE2LTE3LT
 $(document).ready(function () {
     var tokenurl = 'http://' + window.location.host + '/api/token';
     var config = {
-        environment : 'AutodeskProduction'
-		//environment : 'AutodeskStaging'
+        //environment : 'AutodeskProduction'
+	environment : 'AutodeskStaging'
     };
 
     // Instantiate viewer factory
