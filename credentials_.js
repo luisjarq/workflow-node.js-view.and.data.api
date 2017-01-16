@@ -23,7 +23,7 @@ var credentials ={
 		client_id: process.env.CONSUMERKEY || '8lIcVTExetez4plY8kvptOeClQDz5Qgm',
 		client_secret: process.env.CONSUMERSECRET || 'Ec19b1c67a681418',
 		grant_type: 'client_credentials',
-		scope: 'data:read'
+		credentials.BaseUrl = 'https://developer-stg.api.autodesk.com' ;
 	},
 	
 	// If you which to use the Autodesk View & Data API on the staging server, change this url
